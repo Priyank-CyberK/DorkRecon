@@ -1,0 +1,7 @@
+[
+    {
+        "ip": "192.168.93.1",
+        "error": "'VulnerabilityScanner' object has no attribute 'common_misconfigs'",
+        "timestamp": "2025-02-17T18:22:18.660136"
+    }
+]

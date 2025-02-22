@@ -1,0 +1,28 @@
+# Common Google Dorks for Reconnaissance
+
+# Find exposed admin login pages
+inurl:admin login
+
+# Find exposed database files
+filetype:sql "password"
+
+# Find exposed sensitive documents
+filetype:xls "confidential"
+
+# Find exposed configuration files
+filetype:ini "database"
+
+# Find exposed backup files
+filetype:bak "database"
+
+# Find exposed server information
+intitle:"index of" server.log
+
+# Find exposed sensitive directories
+inurl:backup intitle:"index of"
+
+# Find exposed sensitive information
+"password" filetype:txt
+
+# Find exposed web server configurations
+filetype:cfg "server"

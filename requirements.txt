@@ -1,0 +1,7 @@
+requests==2.25.1
+beautifulsoup4==4.9.3
+PyQt5==5.15.10
+urllib3==1.26.15
+lxml==5.1.0
+google-search-results==2.4.2  # SerpAPI library
+duckduckgo-search==3.8.5  # Alternative search library
