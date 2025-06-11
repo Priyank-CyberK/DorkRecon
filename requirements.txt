@@ -1,4 +1,4 @@
-requests==2.25.1
+requests==2.32.4
 beautifulsoup4==4.9.3
 PyQt5==5.15.10
 urllib3==1.26.15
